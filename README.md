@@ -1,9 +1,7 @@
-# E-Commerce
+# E-Commerce Project
 
-# PLEASE WHEN YOU MAKE PULL, CREATRE NEW FOLDER AS A VERSION WITH DATE.
+# PLEASE WHEN YOU MAKE PULL, CREATRE A NEW FOLDER AS A VERSION WITH DATE.
 
-# please inform me before you make any change.
+# PLEASE INFORM ME BEFORE MAKE PUSH.
 
-# when you make any change you have to create comment with your name like :
-
-  "NADER CREATED THE REPO"
+# WHEN YOU MAKE ANY CHANGES YOU HAVE TO PUT COMMENT WITH YOUR NAME LIKE THIS: "NADER CREATED THE REPO".
