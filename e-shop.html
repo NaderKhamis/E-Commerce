@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>e-Shop</title>
+
+    <link rel="icon" href="images/e-shop-icon.png" type="image/png">
+    <!-- STYLE LINKS -->
+
+    <link href="css/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link href="css/fontawesome.css" rel="stylesheet" />
+
+    <link href="css/imagehover.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <!-- /STYLE LINKS -->
+
+</head>
+
+<body>
+
+    <!-- TOP-BAR -->
+
+    <section id="top-bar" class="d-flex justify-content-center">
+
+        <div class="container row p-0">
+
+            <!-- FEATURES -->
+
+            <aside id="features" class="col-12 col-md-6 p-0 d-flex justify-content-center justify-content-md-start">
+
+                <div class="feature pl-0">
+
+                    <i class="fas fa-truck"></i>
+
+                    <span>Free Shipping</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fas fa-undo-alt"></i>
+
+                    <span>Free Return</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fas fa-dollar-sign"></i>
+
+                    <span>Cash On Delivery</span>
+
+                </div>
+
+            </aside>
+
+            <!-- /FEATURES -->
+
+            <!-- SERVICES -->
+
+            <aside id="services" class="col-12 col-md-6 p-0 d-flex justify-content-center  justify-content-md-end">
+
+                <div class="service">
+
+                    <ul class="m-0">
+
+                        <li>
+
+                            <a>Customer Service</a>
+
+                        </li>
+
+                        <li>
+
+                            <a>Sell with Us</a>
+
+                        </li>
+
+                        <li>
+
+                            <a>Track Orders</a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </aside>
+
+            <!-- /SERVICES -->
+
+        </div>
+
+    </section>
+
+    <!-- /TOP-BAR -->
+
+    <!-- HEADER -->
+
+    <header id="header" class="bg-white py-3 px-3 px-md-0 position-sticky sticky-top">
+
+        <section class="container px-0 py-0">
+
+            <section class="px-0 py-0 d-flex flex-wrap justify-content-center justify-content-md-between align-items-center">
+
+                <!-- LOGO -->
+
+                <div id="logo" class="col-2 p-0 order-0">
+
+                    <a href="#">
+
+                        <img class="img-fluid" src="images/e-shop-logo.png" alt="e-Shop Logo">
+
+                    </a>
+
+                </div>
+
+                <!-- /LOGO -->
+
+                <!-- SEARCH-BAR -->
+
+                <div id="search-bar" class="col-12 col-md-6 order-2 order-md-1 pt-4 px-0">
+
+                    <form>
+
+                        <div class="d-flex">
+
+                            <div class="form-group col-9 col-md-10 m-0">
+
+                                <input class="form-control" type="search" placeholder="What are you looking for?">
+
+                            </div>
+
+                            <button type="submit" class="col-3 col-md-2 btn btn-warning mb-3">SEARCH</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <!-- /SEARCH-BAR -->
+
+                <div class="col-10 col-md-3 d-flex justify-content-between p-0 order-1 order-md-2">
+
+                    <!-- LANGUAGE -->
+
+                    <div id="language" class="col-4 p-0">
+
+                        <a href="#" class="d-flex justify-content-center">
+
+                            <img src="images/ar.png" class="m-1">
+
+                            <span>العربية</span>
+
+                        </a>
+
+                    </div>
+
+                    <!-- /LANGUAGE -->
+
+                    <!-- LOGIN -->
+
+                    <div id="login" class="col-4 p-0">
+
+                        <div class="dropdown">
+
+                            <a class="dropdown-toggle d-flex justify-content-between" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                <i class="far fa-user m-1"></i>
+
+                                <span>Login</span>
+
+                                <i class="fas fa-angle-down m-1"></i>
+
+                            </a>
+
+
+                            <div class="dropdown-menu text-center">
+
+                                <a href="#" class="btn btn-warning mt-1">LOGIN</a>
+
+                                <hr>
+
+                                <div class="text-left">
+
+                                    <div class="dropdown-item d-flex">
+
+                                        <i class="fas fa-box-open my-2"></i>
+
+                                        <a class="dropdown-item" href="#">My Orders</a>
+
+                                    </div>
+
+                                    <div class="dropdown-item d-flex">
+
+                                        <i class="far fa-heart my-2"></i>
+
+                                        <a class="dropdown-item" href="#">My Wishlist</a>
+
+                                    </div>
+
+                                    <div class="dropdown-item d-flex">
+
+                                        <i class="far fa-user my-2"></i>
+
+                                        <a class="dropdown-item" href="#">Account</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- /LOGIN -->
+
+                    <!-- CART -->
+
+                    <div id="cart" class="col-3 p-0 text-right">
+
+                        <a href="#">
+
+                            <i class="fas fa-shopping-cart"></i>
+
+                            <span>Cart</span>
+
+                        </a>
+
+                    </div>
+
+                    <!-- /CART -->
+
+                </div>
+
+            </section>
+
+            <!-- NAV -->
+
+            <nav class="navbar px-0 py-0 navbar-expand-lg navbar-light bg-transparent">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                    <div class="navbar-nav p-0 col-12">
+
+                        <div class="col-12 p-0 d-flex">
+
+                            <div class="col-md-2 d-md-flex p-0">
+
+                                <a class="nav-link pl-0" href="#"><span>Browse By Category</a>
+
+                            </div>
+
+                            <div class="col-md-10 p-0 d-md-flex justify-content-end">
+
+                                <a class="nav-link active deal" href="#">DEALS</a>
+
+                                <a class="nav-link" href="#">ELECTRONICS</a>
+
+                                <a class="nav-link" href="#">MEN</a>
+
+                                <a class="nav-link" href="#">WOMEN</a>
+
+                                <a class="nav-link" href="#">HOME & KITCHEN</a>
+
+                                <a class="nav-link" href="#">BEAUTY & FRAGRANCE</a>
+
+                                <a class="nav-link" href="#">BABY & TOYS</a>
+
+                                <a class="nav-link" href="#">SPORTS & OUTDOORS</a>
+
+                                <a class="nav-link pr-0" href="#">GROCERY</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <!-- /NAV -->
+
+        </section>
+
+    </header>
+
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- SLIDER -->
+
+        <section class="container px-0 py-4">
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <a>
+
+                            <img src="images/Galaxy S21 Series 5G.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a>
+
+                            <img src="images/Tommy Hilfiger.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a>
+
+                            <img src="images/Watches.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a>
+
+                            <img src="images/American Eagle.jpg">
+
+                        </a>
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a>
+
+                            <img src="images/Vodafone Shop Online.jpg">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Add Arrows -->
+
+                <div class="slider-arrow swiper-button-next"></div>
+
+                <div class="slider-arrow swiper-button-prev"></div>
+
+                <!-- Add Pagination -->
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <!-- SLIDER -->
+
+        <!-- ADs-TOP SALES -->
+
+        <section>
+
+            <!-- ADs -->
+
+            <aside>
+
+            </aside>
+
+            <!-- /ADs -->
+
+            <!-- TOP SALES -->
+
+            <aside>
+
+            </aside>
+
+            <!-- /TOP SALES -->
+
+        </section>
+
+        <!-- /ADs-TOP SALES -->
+
+        <!-- TOP CATEGORIES -->
+
+        <section>
+
+        </section>
+
+        <!-- /TOP CATEGORIES -->
+
+        <!-- NEW ARRAIVALLES -->
+
+        <section>
+
+        </section>
+
+        <!-- /NEW ARRAIVALLES -->
+
+        <!-- DEAL OF THE DAY -->
+
+        <section>
+
+        </section>
+
+        <!-- /DEAL OF THE DAY -->
+
+
+
+    </main>
+
+    <!-- /MAIN -->
+
+    <!-- FOOTER -->
+
+    <footer class="py-5">
+
+        <section class="container p-0">
+
+            <section class="d-md-flex">
+
+                <section class="footer-item col-12 col-md-3 px-5 pt-5 pb-3 p-md-0 pr-md-5">
+
+                    <img class="img-fluid" src="images/e-shop-w-logo.png" alt="e-Shop Logo">
+
+                    <div class="footer-social-icon pt-3">
+
+                        <div class="social-title">FOLLOW US</div>
+
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+
+                    <div class="footer-social-icon pt-3">
+
+                        <div class="social-title">DOWNLOAD OUR APPS</div>
+
+                        <a href="#">
+
+                            <img src="images/app-store.svg" alt="App Store">
+
+                        </a>
+
+                        <a href="#">
+
+                            <img src="images/google-play.svg" alt="Google Play">
+
+                        </a>
+
+                    </div>
+
+                </section>
+
+                <section class="footer-item col-12 col-md-9 px-5 p-md-0 d-md-flex">
+
+                    <aside class="d-flex col-12 col-md-6 p-0">
+
+                        <div class="col-6 p-0 mr-3">
+
+                            <h5>POPULAR SEARCHES</h5>
+
+                            <ul>
+
+                                <li><a href="#">Cameras</a></li>
+
+                                <li><a href="#">Electronics</a></li>
+
+                                <li><a href="#">TVs</a></li>
+
+                                <li><a href="#">Supermarket</a></li>
+
+                                <li><a href="#">Appliances</a></li>
+
+                                <li><a href="#">Watches</a></li>
+
+                                <li><a href="#">Mobile Phones</a></li>
+
+                                <li><a href="#">Fashion</a></li>
+
+                                <li><a href="#">Printers And Accessories</a></li>
+
+                                <li><a href="#">Laptop</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="col-6 p-0">
+
+                            <h5>MY ACCOUNT</h5>
+
+                            <ul>
+
+                                <li><a href="#">Log In / Register</a></li>
+
+                                <li><a href="#">My Shopping Cart</a></li>
+
+                                <li><a href="#">My Orders</a></li>
+
+                                <li><a href="#">My Addresses</a></li>
+
+                                <li><a href="#">Wish Lists</a></li>
+
+                                <li><a href="#">Account Settings</a></li>
+
+                                <li><a href="#">Account Summary</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </aside>
+
+                    <aside class="d-flex col-12 col-md-6 p-0">
+                        <div class="col-6 p-0  mr-3">
+
+                            <h5>LET US HELP YOU</h5>
+
+                            <ul>
+
+                                <li><a href="#">Help Center</a></li>
+
+                                <li><a href="#">Contact us</a></li>
+
+                                <li><a href="#">How to buy on Jumia?</a></li>
+
+                                <li><a href="#">How to pay on Jumia?</a></li>
+
+                                <li><a href="#">Delivery timelines</a></li>
+
+                                <li><a href="#">Return Policy</a></li>
+
+                                <li><a href="#">Corporate Services</a></li>
+
+                                <li><a href="#">Report a Product</a></li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="col-6 p-0">
+
+                            <h5>LEGAL</h5>
+
+                            <ul>
+
+                                <li><a href="#">Terms</a></li>
+
+                                <li><a href="#">Privacy</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </aside>
+
+
+
+
+
+                </section>
+
+            </section>
+
+            <div class="px-5 p-md-0">
+
+                <p>© 2021 <strong>e-Shop</strong>. All Rights Reserved.</p>
+
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- /FOOTER -->
+
+    <!-- SCRIPT -->
+
+    <script src="js/fontawesome.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- /SCRIPT -->
+
+</body>
+
+</html>
