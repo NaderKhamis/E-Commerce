@@ -17,8 +17,11 @@ $(document).ready(function() {
         },
     });
 
-    setInterval(function() {
-        $('.deal').fadeIn(100);
-        $('.deal').fadeOut(100);
-    }, 300);
+    $('.electronics').click(function() {
+        $('#cat-container').toggle();
+    })
+
+    $('.electronics').blur(function() {
+        $('#cat-container').hide();
+    })
 });

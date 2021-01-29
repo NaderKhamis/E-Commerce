@@ -161,13 +161,18 @@ body {
     -o-transition: 0.3s;
 }
 
+#nav-container {
+    background-color: #E4811C;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #282828;
+    color: #FFF;
     font-size: 14px;
     font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
+    background-color: #FFF;
     color: #E4811C;
 }
 
@@ -183,7 +188,37 @@ body {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
+    color: #FFF;
+}
+
+#cat-container {
+    display: none;
+}
+
+#sub-category ul {
+    list-style-type: none;
+}
+
+#sub-category ul li a {
+    color: #282828;
+}
+
+#sub-category ul li a:hover {
     color: #E4811C;
+    text-decoration: none;
+}
+
+#sub-brands .brand {
+    padding: 10px;
+    border: 1px solid #282828;
+}
+
+#sub-brands .brand:hover {
+    border: 1px solid #E4811C;
+}
+
+#cat-container {
+    left: 189px;
 }
 
 
@@ -242,6 +277,71 @@ body {
 
 
 /* /SLIDER */
+
+
+/* /TOP CATEGORIES */
+
+.top {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.CATEGORIES {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.CATEGORIES a {
+    color: black;
+    font-size: 15px;
+}
+
+.CATEGORIES h3 {
+    margin-top: 10px;
+}
+
+.CATEGORIES a:hover {
+    color: black;
+}
+
+.CATEGORIES .card-group {}
+
+.TopCtegories .card {
+    background-color: white;
+    border: none;
+}
+
+.TopCtegories .card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-right: 10px;
+    transform: scale(1.05);
+}
+
+.TopCtegories .card p {
+    text-transform: capitalize;
+}
+
+.TopCtegories .card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
+}
+
+#top-cat {
+    background-color: #D4D2D4;
+}
+
+#top-cat a:hover {
+    text-decoration: none;
+}
+
+
+/* /TOP CATEGORIES */
 
 
 /* /MAIN */
